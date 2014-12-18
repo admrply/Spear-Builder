@@ -185,14 +185,14 @@ class progress_bar_loading(threading.Thread):
 ######################
 # BEGIN MAIN PROGRAM #
 ######################
-api = twitter.Api(consumer_key='Eyr58CtIG2WUUc4hCrnXeg',
-									consumer_secret='nyHA5OaqKDbcrcdA9fKrdf1vEfNmVTtcx6GvmLVsTfU',
-									access_token_key='86166020-VM2e2UOAsVgeOJE78RbOxITKlatoVyi8Z5hXknGQj',
-									access_token_secret='MbbPss7d7g3a7eBx10NnyVPOJGbFQo572DEXvFhwVjIVG')
-streamingapi = TwitterAPI('Eyr58CtIG2WUUc4hCrnXeg',
-													'nyHA5OaqKDbcrcdA9fKrdf1vEfNmVTtcx6GvmLVsTfU',
-													'86166020-VM2e2UOAsVgeOJE78RbOxITKlatoVyi8Z5hXknGQj',
-													'MbbPss7d7g3a7eBx10NnyVPOJGbFQo572DEXvFhwVjIVG')
+api = twitter.Api(consumer_key='<REDACTED>',
+									consumer_secret='<REDACTED>',
+									access_token_key='<REDACTED>',
+									access_token_secret='<REDACTED>')
+streamingapi = TwitterAPI('<REDACTED>',
+													'<REDACTED>',
+													'<REDACTED>',
+													'<REDACTED>')
 user = twitter.User
 # Instatiates the Twitter APIs and creates a User class for calling user specific details
 
